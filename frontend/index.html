@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftFinder.ai | AI-Powered Baby & Kids Gift Recommendations</title>
+    <meta name="description" content="Discover the perfect gift for babies and children using our AI-powered recommendation engine. Search by age, budget and occasion.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+
+    <!-- ── Header ─────────────────────────────────────────────────────── -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="emoji">🎁</span>
+                <span class="text">GiftFinder.ai</span>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" title="Toggle Dark Mode">🌙</button>
+                <button id="wishlist-btn" class="icon-btn" title="View Wishlist">
+                    ♡
+                    <span id="wishlist-count" class="badge-small hidden">0</span>
+                </button>
+                <div class="lang-toggle">
+                    <button id="btn-en" class="active">English</button>
+                    <button id="btn-ar">العربية</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ── Hero ───────────────────────────────────────────────────── -->
+        <section class="hero">
+            <h1>Find the Perfect Gift<br><span class="gradient-text">Powered by AI ✨</span></h1>
+            <p class="subtitle">Tell us who you're shopping for, your budget, and the occasion. Our AI finds the most thoughtful gifts from our curated catalog.</p>
+
+            <div class="search-container">
+                <!-- Search Box -->
+                <div class="search-box">
+                    <button id="voice-btn" class="icon-btn" title="Voice search">🎤</button>
+                    <input
+                        type="text"
+                        id="query-input"
+                        placeholder="e.g., educational toy for 1 year old under 300 AED"
+                        autocomplete="off"
+                    >
+                    <button id="search-btn">
+                        <span class="btn-text">Find Gifts</span>
+                        <span class="btn-loader hidden"></span>
+                    </button>
+                </div>
+
+                <!-- Story Builder -->
+                <div class="story-builder">
+                    <p class="story-label">🪄 Build your gift story</p>
+                    <div class="chip-group" data-category="recipient">
+                        <span class="chip" data-value="for a newborn">🍼 Newborn</span>
+                        <span class="chip" data-value="for a 6-month-old">👶 6 Months</span>
+                        <span class="chip" data-value="for a 1-year-old">🎂 1 Year</span>
+                        <span class="chip" data-value="for a toddler">🧒 Toddler</span>
+                    </div>
+                    <div class="chip-group" data-category="intent">
+                        <span class="chip" data-value="educational and learning">📚 Educational</span>
+                        <span class="chip" data-value="practical and useful">🛠️ Practical</span>
+                        <span class="chip" data-value="cuddly and emotional">🧸 Emotional</span>
+                        <span class="chip" data-value="luxury and premium">💎 Luxury</span>
+                    </div>
+                    <div class="chip-group" data-category="budget">
+                        <span class="chip" data-value="under 100 AED">Under 100 AED</span>
+                        <span class="chip" data-value="under 300 AED">Under 300 AED</span>
+                        <span class="chip" data-value="no budget limit">No Limit 🚀</span>
+                    </div>
+                </div>
+
+                <!-- Suggestion Tags -->
+                <div class="suggestions">
+                    <span>Try:</span>
+                    <button class="suggestion-tag">Feeding set for newborn</button>
+                    <button class="suggestion-tag">Sensory toy under 100 AED</button>
+                    <button class="suggestion-tag">Arabic story books</button>
+                    <button class="suggestion-tag">Premium baby carrier</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Results ─────────────────────────────────────────────────── -->
+        <section id="results-section" class="results hidden">
+            <div class="results-header">
+                <h2 id="results-title">Recommended for You</h2>
+                <span id="results-count" class="badge">0 items found</span>
+            </div>
+            <div id="results-grid" class="grid">
+                <!-- Cards injected by JS -->
+            </div>
+        </section>
+
+        <!-- ── Empty State ─────────────────────────────────────────────── -->
+        <section id="empty-state" class="empty-state hidden">
+            <span class="empty-icon">🔍</span>
+            <h3>No gifts found</h3>
+            <p>Try adjusting your search terms or budget range.</p>
+        </section>
+
+        <!-- ── Initial State ───────────────────────────────────────────── -->
+        <section id="initial-state" class="initial-state">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <span class="icon">✨</span>
+                    <h3>Smart AI Filters</h3>
+                    <p>Understands age, budget, occasion and intent automatically from plain English or Arabic.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">🛡️</span>
+                    <h3>Verified Products</h3>
+                    <p>Only top-rated, age-safe products from premium brands like Fisher-Price, Jellycat & more.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">💬</span>
+                    <h3>Bilingual Support</h3>
+                    <p>Search and receive personalized recommendations in both English and Arabic.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 GiftFinder.ai &nbsp;|&nbsp; Powered by OpenRouter &amp; FAISS Vector Search</p>
+    </footer>
+</div>
+
+<!-- Toast container -->
+<div id="toast-container" class="toast-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+[
+    {
+        "id": "P001",
+        "name": "Fisher-Price Baby's First Blocks",
+        "name_ar": "مكعبات فيشر-برايس الأولى للأطفال",
+        "category": "Educational Toys",
+        "price_aed": 89.0,
+        "min_age_months": 6,
+        "max_age_months": 36,
+        "tags": [
+            "learning",
+            "motor skills",
+            "colorful",
+            "shapes",
+            "classic"
+        ],
+        "intent": [
+            "practical",
+            "educational"
+        ],
+        "description": "Classic shape-sorting toy that helps babies develop fine motor skills and shape recognition. Includes 10 colorful shapes and a sturdy bucket.",
+        "description_ar": "لعبة فرز الأشكال الكلاسيكية التي تساعد الأطفال على تطوير المهارات الحركية الدقيقة والتعرف على الأشكال. تشمل 10 أشكال ملونة ودلو متين.",
+        "brand": "Fisher-Price",
+        "in_stock": true,
+        "rating": 4.7
+    },
+    {
+        "id": "P002",
+        "name": "Ergobaby Omni 360 Baby Carrier",
+        "name_ar": "حامل الأطفال إيرجوبيبي أومني 360",
+        "category": "Baby Gear",
+        "price_aed": 649.0,
+        "min_age_months": 0,
+        "max_age_months": 48,
+        "tags": [
+            "practical",
+            "parent gift",
+            "ergonomic",
+            "newborn",
+            "comfort"
+        ],
+        "intent": [
+            "practical"
+        ],
+        "description": "Award-winning ergonomic baby carrier suitable from newborn to toddler. Four carry positions, lumbar support, and breathable fabric.",
+        "description_ar": "حامل أطفال مريح حاز على جوائز، مناسب من المولود حتى الطفل الصغير. أربعة أوضاع للحمل ودعم قطني وقماش قابل للتنفس.",
+        "brand": "Ergobaby",
+        "in_stock": true,
+        "rating": 4.9
+    },
+    {
+        "id": "P003",
+        "name": "Jellycat Bashful Bunny Soft Toy",
+        "name_ar": "أرنب جيلي كات الناعم",
+        "category": "Plush Toys",
+        "price_aed": 115.0,
+        "min_age_months": 0,
+        "max_age_months": 120,
+        "tags": [
+            "emotional",
+            "comfort",
+            "soft",
+            "gift",
+            "cute",
+            "plush"
+        ],
+        "intent": [
+            "emotional",
+            "gift"
+        ],
+        "description": "Iconic ultra-soft bunny that babies and toddlers adore. Made from the softest materials, safe for newborns. A timeless first gift.",
+        "description_ar": "أرنب ناعم للغاية يحبه الأطفال. مصنوع من أنعم المواد، آمن للمواليد الجدد. هدية أولى خالدة.",
+        "brand": "Jellycat",
+        "in_stock": true,
+        "rating": 4.9
+    },
+    {
+        "id": "P004",
+        "name": "Munchkin Miracle 360 Trainer Cup",
+        "name_ar": "كوب مانشكين ميراكل 360 التدريبي",
+        "category": "Feeding",
+        "price_aed": 59.0,
+        "min_age_months": 6,
+        "max_age_months": 36,
+        "tags": [
+            "practical",
+            "feeding",
+            "weaning",
+            "sippy cup",
+            "essential"
+        ],
+        "intent": [
+            "practical"
+        ],
+        "description": "Spill-proof 360-degree drinking cup that helps transition from bottle to cup. Dishwasher safe, BPA-free.",
+        "description_ar": "كوب شرب مضاد للانسكاب بزاوية 360 درجة يساعد في الانتقال من الزجاجة إلى الكوب. آمن للغسالة وخالٍ من BPA.",
+        "brand": "Munchkin",
+        "in_stock": true,
+        "rating": 4.6
+    },
+    {
+        "id": "P005",
+        "name": "Baby Einstein Take Along Tunes",
+        "name_ar": "موسيقى بيبي أينشتاين المتنقلة",
+        "category": "Musical Toys",
+        "price_aed": 75.0,
+        "min_age_months": 3,
+        "max_age_months": 18,
+        "tags": [
+            "musical",
+            "sensory",
+            "portable",
+            "developmental",
+            "interactive"
+        ],
+        "intent": [
+            "educational",
+            "entertainment"
+        ],
+        "description": "Handheld musical toy featuring 7 classical melodies and colorful light show. Develops auditory skills and cause-effect understanding.",
+        "description_ar": "لعبة موسيقية محمولة تضم 7 ألحان كلاسيكية وعرضاً ضوئياً ملوناً. تطور المهارات السمعية وفهم علاقة السبب والنتيجة.",
+        "brand": "Baby Einstein",
+        "in_stock": true,
+        "rating": 4.5
+    },
+    {
+        "id": "P006",
+        "name": "HALO SleepSack Wearable Blanket",
+        "name_ar": "بطانية هالو النوم القابلة للارتداء",
+        "category": "Sleep",
+        "price_aed": 139.0,
+        "min_age_months": 0,
+        "max_age_months": 18,
+        "tags": [
+            "sleep",
+            "safe",
+            "practical",
+            "newborn",
+            "essentials"
+        ],
+        "intent": [
+            "practical",
+            "safety"
+        ],
+        "description": "Pediatrician-recommended wearable blanket that keeps babies at safe sleep temperatures. Replaces loose blankets in the crib.",
+        "description_ar": "بطانية قابلة للارتداء يوصي بها أطباء الأطفال تحافظ على درجة حرارة نوم آمنة. تحل محل البطانيات الفضفاضة في السرير.",
+        "brand": "HALO",
+        "in_stock": true,
+        "rating": 4.8
+    },
+    {
+        "id": "P007",
+        "name": "Skip Hop Play Gym",
+        "name_ar": "حصيرة اللعب سكيب هوب",
+        "category": "Play Mats",
+        "price_aed": 299.0,
+        "min_age_months": 0,
+        "max_age_months": 12,
+        "tags": [
+            "tummy time",
+            "developmental",
+            "activity",
+            "sensory",
+            "play"
+        ],
+        "intent": [
+            "educational",
+            "practical"
+        ],
+        "description": "Adorable activity gym with detachable toys, mirror, and crinkle sounds. Grows with baby through multiple stages of development.",
+        "description_ar": "صالة ألعاب رائعة مع ألعاب قابلة للفصل ومرآة وأصوات تشبيك. تنمو مع الطفل خلال مراحل التطور المتعددة.",
+        "brand": "Skip Hop",
+        "in_stock": true,
+        "rating": 4.7
+    },
+    {
+        "id": "P008",
+        "name": "Chicco Baby Senses Gift Set",
+        "name_ar": "طقم هدايا الحواس من تشيكو للأطفال",
+        "category": "Gift Sets",
+        "price_aed": 185.0,
+        "min_age_months": 0,
+        "max_age_months": 12,
+        "tags": [
+            "gift set",
+            "sensory",
+            "newborn",
+            "bundle",
+            "value"
+        ],
+        "intent": [
+            "gift",
+            "emotional",
+            "mixed"
+        ],
+        "description": "Complete sensory gift set including a rattle, soft book, teether, and plush toy. Beautifully packaged — perfect for gifting.",
+        "description_ar": "طقم هدايا حسية كامل يشمل خشخيشة وكتاباً ناعماً ومسناناً ولعبة ناعمة. معبأ بشكل جميل — مثالي للإهداء.",
+        "brand": "Chicco",
+        "in_stock": true,
+        "rating": 4.6
+    },
+    {
+        "id": "P009",
+        "name": "Philips Avent Natural Baby Bottle Starter Set",
+        "name_ar": "طقم زجاجات فيليبس أفينت الطبيعي",
+        "category": "Feeding",
+        "price_aed": 175.0,
+        "min_age_months": 0,
+        "max_age_months": 12,
+        "tags": [
+            "feeding",
+            "bottle",
+            "newborn",
+            "practical",
+            "essentials"
+        ],
+        "intent": [
+            "practical"
+        ],
+        "description": "Natural baby bottle starter set with three bottles, nipples and cleaning brush. Anti-colic design with natural latch nipple.",
+        "description_ar": "طقم زجاجات الأطفال الطبيعي مع ثلاث زجاجات وحلمات وفرشاة تنظيف. تصميم مضاد للمغص مع حلمة بشكل طبيعي.",
+        "brand": "Philips Avent",
+        "in_stock": true,
+        "rating": 4.7
+    },
+    {
+        "id": "P010",
+        "name": "Infantino Squeeze and Teethe Hedgehog",
+        "name_ar": "لعبة التسنين القنفذ من إنفانتينو",
+        "category": "Teething Toys",
+        "price_aed": 45.0,
+        "min_age_months": 3,
+        "max_age_months": 18,
+        "tags": [
+            "teething",
+            "sensory",
+            "BPA-free",
+            "chewy",
+            "texture"
+        ],
+        "intent": [
+            "practical",
+            "comfort"
+        ],
+        "description": "Adorable hedgehog teething toy with multi-textured surface for sore gums. BPA-free, easy to grip and squeeze.",
+        "description_ar": "لعبة تسنين قنفذ رائعة بسطح متعدد الأنسجة للثة المؤلمة. خالية من BPA، سهلة الإمساك والضغط.",
+        "brand": "Infantino",
+        "in_stock": true,
+        "rating": 4.4
+    },
+    {
+        "id": "P011",
+        "name": "Graco DuoGlider Double Stroller",
+        "name_ar": "عربة غراكو دويو غلايدر المزدوجة",
+        "category": "Strollers",
+        "price_aed": 1299.0,
+        "min_age_months": 0,
+        "max_age_months": 48,
+        "tags": [
+            "stroller",
+            "twin",
+            "double",
+            "premium",
+            "travel"
+        ],
+        "intent": [
+            "practical"
+        ],
+        "description": "Premium double stroller for two children with reclining seats, large canopies, and one-hand fold. Perfect for growing families.",
+        "description_ar": "عربة مزدوجة فاخرة لطفلين مع مقاعد قابلة للإمالة ومظلات كبيرة وطي بيد واحدة. مثالية للعائلات المتنامية.",
+        "brand": "Graco",
+        "in_stock": false,
+        "rating": 4.5
+    },
+    {
+        "id": "P012",
+        "name": "Nuby Snack Keeper Bundle",
+        "name_ar": "حزمة حاوية الوجبات الخفيفة نوبي",
+        "category": "Feeding",
+        "price_aed": 69.0,
+        "min_age_months": 9,
+        "max_age_months": 36,
+        "tags": [
+            "snack",
+            "feeding",
+            "on-the-go",
+            "BPA-free",
+            "practical"
+        ],
+        "intent": [
+            "practical"
+        ],
+        "description": "Pack of 2 snack keeper cups with easy-open flaps. Perfect for self-feeding babies and toddlers on the go.",
+        "description_ar": "عبوة من 2 كوب لحفظ الوجبات الخفيفة مع غطاء سهل الفتح. مثالية للأطفال الذين يتعلمون تناول الطعام بأنفسهم.",
+        "brand": "Nuby",
+        "in_stock": true,
+        "rating": 4.3
+    },
+    {
+        "id": "P013",
+        "name": "Manhattan Toy Winkel Rattle & Sensory Teether",
+        "name_ar": "خشخيشة مانهاتن توي الحسية",
+        "category": "Sensory Toys",
+        "price_aed": 95.0,
+        "min_age_months": 3,
+        "max_age_months": 12,
+        "tags": [
+            "rattle",
+            "teether",
+            "sensory",
+            "BPA-free",
+            "iconic"
+        ],
+        "intent": [
+            "educational",
+            "comfort"
+        ],
+        "description": "Iconic multi-looped rattle and teether with a safe, soothing rattle inside. Encourages exploration and hand-eye coordination.",
+        "description_ar": "خشخيشة ومسنان بحلقات متعددة مع خشخيشة آمنة ومريحة بالداخل. يشجع على الاستكشاف وتنسيق اليد والعين.",
+        "brand": "Manhattan Toy",
+        "in_stock": true,
+        "rating": 4.8
+    },
+    {
+        "id": "P014",
+        "name": "Aden + Anais Classic Muslin Swaddle Blankets (4-pack)",
+        "name_ar": "بطانيات التقميط الموسلين من آدن وأناييس (4 قطع)",
+        "category": "Swaddles & Blankets",
+        "price_aed": 199.0,
+        "min_age_months": 0,
+        "max_age_months": 12,
+        "tags": [
+            "swaddle",
+            "muslin",
+            "newborn",
+            "breathable",
+            "gift",
+            "essential"
+        ],
+        "intent": [
+            "practical",
+            "gift",
+            "mixed"
+        ],
+        "description": "Set of 4 large breathable muslin swaddle blankets. Versatile use as swaddle, nursing cover, tummy time mat, or stroller shade.",
+        "description_ar": "طقم من 4 بطانيات تقميط موسلين كبيرة وقابلة للتنفس. استخدام متعدد الأغراض كبطانية تقميط أو غطاء رضاعة أو حصيرة أو ظل للعربة.",
+        "brand": "Aden + Anais",
+        "in_stock": true,
+        "rating": 4.8
+    },
+    {
+        "id": "P015",
+        "name": "Lovevery The Play Kits (6-Month Box)",
+        "name_ar": "طقم لعب لوف إيفري (صندوق 6 أشهر)",
+        "category": "Developmental Kits",
+        "price_aed": 349.0,
+        "min_age_months": 5,
+        "max_age_months": 7,
+        "tags": [
+            "developmental",
+            "age-appropriate",
+            "educational",
+            "premium",
+            "subscription"
+        ],
+        "intent": [
+            "educational",
+            "gift",
+            "mixed"
+        ],
+        "description": "Stage-based play kit scientifically designed for babies 5-7 months. Includes a ball drop, high contrast cards, soft blocks, and activity guide for parents.",
+        "description_ar": "طقم لعب مصمم علمياً للأطفال من 5-7 أشهر. يتضمن كرة، بطاقات عالية التباين، مكعبات ناعمة، ودليل نشاط للآباء.",
+        "brand": "Lovevery",
+        "in_stock": true,
+        "rating": 4.9
+    }
+]

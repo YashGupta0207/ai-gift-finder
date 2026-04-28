@@ -1,0 +1,30 @@
+# Core Framework
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core>=0.3.29
+langchain-huggingface==0.1.2
+
+# LLM & Embeddings
+openai==1.59.9          # OpenRouter uses OpenAI-compatible API
+sentence-transformers==3.3.1
+torch>=2.0.0            # Required for local embeddings
+transformers>=4.40.0    # Required for local embeddings
+faiss-cpu==1.9.0.post1
+
+# API Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Validation & Data
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.1
+tenacity==9.0.0         # Retry logic
+structlog==24.4.0       # Structured logging
+
+# Dev
+pytest==8.3.4
+pytest-asyncio==0.25.0
