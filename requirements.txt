@@ -9,7 +9,7 @@ openai==1.59.9          # OpenRouter uses OpenAI-compatible API
 sentence-transformers==3.3.1
 torch>=2.0.0            # Required for local embeddings
 transformers>=4.40.0    # Required for local embeddings
-faiss-cpu==1.9.0.post1
+faiss-cpu>=1.8.0
 
 # API Framework
 fastapi==0.115.6
