@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Config
 // ─────────────────────────────────────────────────────────────────────────────
-const API_URL = 'http://localhost:8000/api/recommend';
+const API_URL = 'https://ai-gift-finder-6-jf7d.onrender.com/api/recommend';
 
 // ─── Full product catalog (mirrors products.json) ────────────────────────────
 const CATALOG = [
