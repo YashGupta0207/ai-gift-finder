@@ -2,17 +2,24 @@
 
 🎁 Find the perfect gift in seconds using AI
 
+🌐 Live Demo:
+👉 https://ai-gift-finder-dnpf.vercel.app/
+
 📌 Overview
 
-AI Gift Finder is an intelligent web application that helps users discover personalized gift recommendations based on preferences such as interests, occasion, budget, and relationship.
+AI Gift Finder is an intelligent web application that helps users discover personalized gift recommendations based on preferences like interests, age, occasion, relationship, and budget.
 
-Instead of wasting time searching across multiple platforms, this system uses AI-driven logic to suggest meaningful and relevant gift ideas instantly.
+Instead of wasting time browsing multiple platforms, the system uses AI-driven logic to instantly generate meaningful and relevant gift ideas.
+
+AI-powered gift recommendation tools like this are becoming popular because they reduce decision fatigue and provide tailored suggestions quickly based on user inputs
 
 ✨ Features
 🎯 Personalized Recommendations
-Get gift suggestions tailored to user input (age, interests, occasion, etc.)
+Tailored gift suggestions based on user inputs
+Supports age, interests, relationship, and more
 🤖 AI-Powered Suggestions
-Smart logic/AI model to generate meaningful gift ideas
+Smart AI logic generates meaningful gift ideas
+Context-aware recommendations
 💸 Budget-Based Filtering
 Find gifts within a specific price range
 🎉 Occasion-Based Suggestions
@@ -20,26 +27,7 @@ Birthday, Anniversary, Festivals, etc.
 ⚡ Fast & Interactive UI
 Smooth and responsive user experience
 🔄 Scalable System Design
-Can be extended with APIs (Amazon, Flipkart, etc.)
-🛠️ Tech Stack
-
-Frontend:
-
-HTML
-CSS
-JavaScript / React (if used)
-
-Backend:
-
-Python / Node.js
-
-AI / Logic:
-
-OpenAI API / Rule-based / ML model
-
-Database (optional):
-
-MongoDB / CSV / JSON
+Easily extendable with APIs (Amazon, Flipkart, etc.)
 🧠 How It Works
 User enters details:
 Age
@@ -47,8 +35,19 @@ Interests
 Budget
 Occasion
 System processes input using AI logic
-Generates a list of best-matching gift ideas
-Displays results with recommendations
+Generates best-matching gift ideas
+Displays results instantly
+🛠️ Tech Stack
+Frontend
+HTML
+CSS
+JavaScript / React
+Backend
+Python / Node.js
+AI / Logic
+OpenAI API / Rule-based / ML
+Database (Optional)
+MongoDB / JSON / CSV
 📂 Project Structure
 ai-gift-finder/
 │── frontend/        # UI components
@@ -62,26 +61,33 @@ ai-gift-finder/
 git clone https://github.com/YashGupta0207/ai-gift-finder.git
 cd ai-gift-finder
 2️⃣ Install dependencies
+
+For Node:
+
 npm install
-# or
+
+For Python:
+
 pip install -r requirements.txt
 3️⃣ Run the project
 npm start
-# or
+
+or
+
 python app.py
 4️⃣ Open in browser
 http://localhost:3000
 📸 Screenshots
 
-Add your project screenshots here
+Add your screenshots here:
 
-/screenshots/home.png  
-/screenshots/results.png  
+/screenshots/home.png
+/screenshots/results.png
 🚀 Future Improvements
 🔗 Integrate real e-commerce APIs (Amazon, Flipkart)
 🧠 Improve AI model accuracy
 ❤️ Add user profiles & history
-📊 Recommendation feedback system
+📊 Feedback-based recommendation system
 📱 Mobile app version
 🤝 Contributing
 
@@ -99,12 +105,17 @@ This project is licensed under the MIT License
 
 Yash Gupta
 
-GitHub: https://github.com/YashGupta0207
+🔗 GitHub: https://github.com/YashGupta0207
+
 💡 Why This Project?
 
 Finding the perfect gift is often stressful and time-consuming.
-This project simplifies the process using AI, making gifting faster, smarter, and more meaningful.
 
+This project simplifies the process using AI — making gifting:
+
+⚡ Faster
+🎯 Smarter
+❤️ More meaningful
 ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, don’t forget to give it a ⭐ on GitHub!
